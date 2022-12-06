@@ -1,0 +1,19 @@
+.card-container {
+  /* max-width: 600px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.card-container-left-content {
+  flex: 2;
+}
+
+.card-container-right-content {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
