@@ -1,0 +1,40 @@
+.header-content-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  color: white;
+  border: none;
+
+  bottom: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: pink;
+}
+
+.header-content-card-img {
+  border-radius: 50%;
+  width: 192.75px;
+  height: 192.75px;
+}
+
+.header-content-btn-container {
+  display: flex;
+}
+
+.header-content-card-btn-0 {
+  background-color: #6497b1;
+  outline: none;
+}
+
+.header-content-card-btn-1 {
+  background-color: #b3cde0;
+  outline: none;
+}
+
+.header-content-card-btn-0,
+.header-content-card-btn-1 {
+  border-radius: 0px;
+  width: 130px;
+}
