@@ -21,6 +21,7 @@
 
 .header-content-btn-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-content-card-btn-0 {
@@ -35,6 +36,18 @@
 
 .header-content-card-btn-0,
 .header-content-card-btn-1 {
+  border: none;
   border-radius: 0px;
   width: 130px;
+  padding: 5px;
+  color: white;
 }
+
+.header-content-card-btn-0:hover {
+  background-color: #44738b;
+}
+
+.header-content-card-btn-1:hover {
+  background-color: #90a9ba;
+}
+

@@ -15,7 +15,15 @@
   margin: auto;
   font-weight: bold;
   color: white;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
   /* background-color: rgb(127, 255, 212, 0.3); */
+}
+
+.set-transition {
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  background-color: rgb(170, 170, 170);
 }
 
 .navbar-container-left div {

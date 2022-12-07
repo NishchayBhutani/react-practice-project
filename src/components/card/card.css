@@ -4,6 +4,10 @@
   flex-direction: row;
 }
 
+.card-container-parent {
+  top: 50px;
+}
+
 .card-container-left-content {
   flex: 2;
 }

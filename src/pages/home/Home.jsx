@@ -5,7 +5,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Card from "../../components/card/Card";
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className="home-container">
       <Navbar />
       <Header />
       <Card
@@ -16,6 +16,96 @@ I am a tech enthusiast interested in Data Analytics, Machine Learning, and Devel
 
 I am an avid learner who is enthusiastic about learning something new each and every day. On the whole, I love to code and am an enthusiastic coder. Learn More`}
       />
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
     </div>
   );
 };

@@ -2,9 +2,25 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css";
+import { useEffect } from "react";
+import { useState } from "react";
 const Navbar = () => {
+  const [navbarChange, setNavbarChange] = useState(false);
+  const controlNavbar = () => {
+    if (window.scrollY > 300) {
+      setNavbarChange(true);
+    } else {
+      setNavbarChange(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, []);
   return (
-    <div className="navbar-container">
+    <div className={`navbar-container ${navbarChange && `set-transition`}`}>
       <div className="navbar-container-left">
         <div>Portfolio</div>
       </div>

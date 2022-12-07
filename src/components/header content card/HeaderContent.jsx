@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./headerContent.css";
 const HeaderContent = () => {
@@ -16,12 +16,8 @@ const HeaderContent = () => {
         <Card.Title>Nishchay Bhutani</Card.Title>
         <Card.Text>CSE YEAR-4, CHITKARA UNIVERSITY PUNJAB</Card.Text>
         <div className="header-content-btn-container">
-          <Button className="header-content-card-btn-0" >
-            Hire Me
-          </Button>
-          <Button className="header-content-card-btn-1" variant="info">
-            Download CV
-          </Button>
+          <button className="header-content-card-btn-0">Hire Me</button>
+          <button className="header-content-card-btn-1">Download CV</button>
         </div>
       </Card.Body>
     </Card>
